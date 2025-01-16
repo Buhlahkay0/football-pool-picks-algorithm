@@ -1,0 +1,24 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/blakegabriel/Development/Football_Pool/spread_v2.1'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _is_already_picked, symObjAddr: 0x0, symBinAddr: 0x1000033FC, symSize: 0x94 }
+  - { offsetInCU: 0x3F, offset: 0x3F, size: 0x8, addend: 0x0, symName: _total_games, symObjAddr: 0x25E0, symBinAddr: 0x1000080C4, symSize: 0x0 }
+  - { offsetInCU: 0x5B, offset: 0x5B, size: 0x8, addend: 0x0, symName: _already_picked, symObjAddr: 0xA80, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x90, offset: 0x90, size: 0x8, addend: 0x0, symName: _weeks_picked, symObjAddr: 0xB00, symBinAddr: 0x100008080, symSize: 0x0 }
+  - { offsetInCU: 0xB1, offset: 0xB1, size: 0x8, addend: 0x0, symName: _total_already_picked, symObjAddr: 0xB3C, symBinAddr: 0x1000080BC, symSize: 0x0 }
+  - { offsetInCU: 0xC6, offset: 0xC6, size: 0x8, addend: 0x0, symName: _total_weeks_picked, symObjAddr: 0xB40, symBinAddr: 0x1000080C0, symSize: 0x0 }
+  - { offsetInCU: 0xDB, offset: 0xDB, size: 0x8, addend: 0x0, symName: _total_remaining_weeks, symObjAddr: 0x25E4, symBinAddr: 0x1000080C8, symSize: 0x0 }
+  - { offsetInCU: 0xF0, offset: 0xF0, size: 0x8, addend: 0x0, symName: _total_possible_picks, symObjAddr: 0x25E8, symBinAddr: 0x1000080CC, symSize: 0x0 }
+  - { offsetInCU: 0x105, offset: 0x105, size: 0x8, addend: 0x0, symName: _best_min_spread, symObjAddr: 0x25EC, symBinAddr: 0x1000080D0, symSize: 0x0 }
+  - { offsetInCU: 0x11A, offset: 0x11A, size: 0x8, addend: 0x0, symName: _best_total_spread, symObjAddr: 0x25F0, symBinAddr: 0x1000080D4, symSize: 0x0 }
+  - { offsetInCU: 0x13B, offset: 0x13B, size: 0x8, addend: 0x0, symName: _games, symBinAddr: 0x1000081A4, symSize: 0x0 }
+  - { offsetInCU: 0x19C, offset: 0x19C, size: 0x8, addend: 0x0, symName: _remaining_weeks, symBinAddr: 0x100008C94, symSize: 0x0 }
+  - { offsetInCU: 0x1BD, offset: 0x1BD, size: 0x8, addend: 0x0, symName: _possible_picks, symBinAddr: 0x1000087E4, symSize: 0x0 }
+  - { offsetInCU: 0x212, offset: 0x212, size: 0x8, addend: 0x0, symName: _best_set, symBinAddr: 0x1000080D8, symSize: 0x0 }
+  - { offsetInCU: 0x24B, offset: 0x24B, size: 0x8, addend: 0x0, symName: _is_already_picked, symObjAddr: 0x0, symBinAddr: 0x1000033FC, symSize: 0x94 }
+  - { offsetInCU: 0x28F, offset: 0x28F, size: 0x8, addend: 0x0, symName: _generate_possible_picks, symObjAddr: 0x94, symBinAddr: 0x100003490, symSize: 0x218 }
+  - { offsetInCU: 0x2E9, offset: 0x2E9, size: 0x8, addend: 0x0, symName: _evaluate_picks, symObjAddr: 0x2AC, symBinAddr: 0x1000036A8, symSize: 0xD8 }
+  - { offsetInCU: 0x36F, offset: 0x36F, size: 0x8, addend: 0x0, symName: _find_best_picks, symObjAddr: 0x384, symBinAddr: 0x100003780, symSize: 0x270 }
+  - { offsetInCU: 0x43B, offset: 0x43B, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x5F4, symBinAddr: 0x1000039F0, symSize: 0x474 }
+...
